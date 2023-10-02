@@ -28,7 +28,7 @@ window.mainloop()
 import tkinter as tk
 window = tk.Tk()
 # Full Screen option
-window.attributes('-fullscreen'. True)
+window.attributes('-fullscreen', True)
 window.mainloop()
 ```
 - `Background`

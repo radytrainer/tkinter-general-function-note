@@ -12,7 +12,7 @@ window.mainloop()
 import tkinter as tk
 window = tk.Tk()
 # Window title
-window.title('Your title here)
+window.title('Your title here')
 window.mainloop()
 ```
 - `Window Size`:

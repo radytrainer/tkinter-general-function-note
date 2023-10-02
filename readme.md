@@ -48,6 +48,7 @@ window.resizable(0, 0) # or window.resizable(False, False)
 window.mainloop()
 ```
 - `Window Icons`
+
 ```python
 from tkinter import *
 window = Tk()
@@ -61,6 +62,7 @@ window.mainloop()
 
 ### Tkinter frame container properties
 - `Frame declaration`.
+
 ```python
 import tkinter as tk
 window = tk.Tk()
@@ -72,6 +74,7 @@ frame.pack()
 window.mainloop()
 ```
 - `Frame Width and Height`
+
 ```python
 import tkinter as tk
 window = tk.Tk()
@@ -83,6 +86,7 @@ frame.pack()
 window.mainloop()
 ```
 - `Frame background color`
+
 ```python
 import tkinter as tk
 window = tk.Tk()
@@ -95,6 +99,7 @@ window.mainloop()
 ```
 ### Canvas widget properties
 - `Canvas declaration`
+
 ```python
 import tkinter as tk
 window = tk.Tk()
@@ -110,6 +115,7 @@ canvas.pack()
 window.mainloop()
 ```
 - `Canvas width and height`
+
 ```python
 import tkinter as tk
 window = tk.Tk()
@@ -125,6 +131,7 @@ canvas.pack()
 window.mainloop()
 ```
 - `Canvas Background color`
+
 ```python
 import tkinter as tk
 window = tk.Tk()
@@ -143,6 +150,7 @@ window.mainloop()
 <img src="shape.png">
 
 - `Rectangle Shape`
+
 ```python
 import tkinter as tk
 window = tk.Tk()
@@ -161,6 +169,7 @@ canvas.create_rectangle(10, 10, 100, 100, fill="red")
 window.mainloop()
 ```
 - `Circle Shape`
+
 ```python
 import tkinter as tk
 window = tk.Tk()
@@ -179,6 +188,7 @@ canvas.create_oval(10, 10, 100, 100, fill="red")
 window.mainloop()
 ```
 - `Text`
+
 ```python
 import tkinter as tk
 window = tk.Tk()
